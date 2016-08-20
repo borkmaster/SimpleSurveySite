@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<head>
+    <title>Express</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+    <script>var app = angular.module("surveyApp", ["ngRoute"]);</script>
+
+</head>
+
+<body data-ng-app="surveyApp">
+    <div ng-view>
+
+    </div>
+
+
+    <script src="/javascript/routes/routes.js"></script>
+    <script src="/javascript/controllers/MainController.js"></script>
+</body>
+</html>
